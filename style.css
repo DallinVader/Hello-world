@@ -37,4 +37,7 @@
 
 h1{
     font-family: starwars;
+    font-weight: 500;
+    font-size: small;
+    color: rgb(255, 255, 255);
 }
