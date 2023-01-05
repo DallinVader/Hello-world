@@ -1,3 +1,40 @@
-body{
-    
+  #PlayStopButton {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 0;
+  }
+  
+  /* Add some content at the bottom of the video/page */
+  .content {
+    position: fixed;
+    bottom: top;
+    left: -15;
+    background: rgba(0, 0, 0, 0.315);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 25px;
+  }
+
+  @font-face{
+    font-family: 'starwars';
+    src: url(Fonts/starjedi/Starjedi.ttf);
+    font-style: normal;
+    font-weight: 100;
+    font-size: large;
+}
+
+h1{
+    font-family: starwars;
 }
