@@ -35,9 +35,38 @@
     font-size: large;
 }
 
+h2{
+    border:3px solid black;
+    margin: auto;
+    font-family: starwars;
+    font-weight: 500;
+    font-size: small;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
 h1{
     font-family: starwars;
     font-weight: 500;
     font-size: small;
+    text-align: center;
     color: rgb(255, 255, 255);
 }
+
+.grid-container {
+    display: grid;
+    column-gap: 33%;
+    grid-template-columns: auto auto auto;
+    background-color: #00000000;
+    padding: 10px;
+  }
+
+  table, th, td {
+    border:3px solid black;
+    margin: auto;
+    font-family: starwars;
+    font-weight: 500;
+    font-size: small;
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
