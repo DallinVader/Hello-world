@@ -21,7 +21,7 @@
     position: fixed;
     bottom: top;
     left: -15;
-    background: rgba(0, 0, 0, 0.315);
+    background: rgba(116, 116, 116, 0.473);
     color: #f1f1f1;
     width: 100%;
     padding: 25px;
@@ -36,13 +36,11 @@
 }
 
 h2{
-    border:3px solid black;
-    margin: auto;
     font-family: starwars;
     font-weight: 500;
     font-size: small;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 h1{
@@ -50,7 +48,7 @@ h1{
     font-weight: 500;
     font-size: small;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 253, 123);
 }
 
 .grid-container {
