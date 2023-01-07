@@ -8,7 +8,7 @@
     cursor: pointer;
   }
   #myVideo {
-    position: fixed;
+    position: absolute;
     right: 0;
     bottom: 0;
     min-width: 100%;
@@ -18,7 +18,7 @@
   
   /* Add some content at the bottom of the video/page */
   .content {
-    position: fixed;
+    position: absolute;
     bottom: top;
     left: -15;
     background: rgba(116, 116, 116, 0.473);
